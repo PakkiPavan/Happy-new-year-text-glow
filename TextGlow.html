@@ -1,0 +1,100 @@
+<html>
+<head>
+<style>
+body
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:black;
+	font-family:'Bad Script', cursive;	
+}
+h1
+{
+	color:#111;
+	font-size:6em;
+}
+h1 span
+{
+	margin:0;
+	padding:0;
+	display:table-cell;
+	animation:blink 2s linear infinite;
+}
+h1 span:nth-child(1)
+{
+	animation-delay:0s;
+}
+h1 span:nth-child(2)
+{
+	animation-delay:0.25s;
+}
+h1 span:nth-child(3)
+{
+	animation-delay:0.5s;
+}
+h1 span:nth-child(4)
+{
+	animation-delay:0.75s;
+}
+h1 span:nth-child(5)
+{
+	animation-delay:1s;
+}
+h1 span:nth-child(6)
+{
+	animation-delay:1.25s;
+}
+h1 span:nth-child(7)
+{
+	animation-delay:1.5s;
+}
+h1 span:nth-child(8)
+{
+	animation-delay:1.75s;
+}
+h1 span:nth-child(9)
+{
+	animation-delay:2s;
+}
+h1 span:nth-child(10)
+{
+	animation-delay:2.25s;
+}
+
+@keyframes blink
+{
+	0%,100%
+	{
+		color:#fff;
+		text-shadow:0 0 10px  #b011d8,
+			   0 0 20px  #b011d8,	
+			   0 0 40px  #b011d8,	
+			   0 0 80px  #b011d8,	
+			   0 0 100px  #b011d8,	
+			   0 0 200px  #b011d8,	
+			   0 0 300px  #b011d8,	
+			   0 0 400px  #b011d8;	
+	}	
+	5%,95%
+	{
+		color:#111;
+		box-shadow:none;
+
+	}
+
+} 
+</style>
+</head>
+<body>
+<h1>
+	<span>Happy</span>
+	<span>New</span>
+	<span>Year</span>
+	<br>
+	<span>Welcome</span>
+	<span>to</span>
+	<span>2019</span>
+</h1>
+</body>
+</html>
